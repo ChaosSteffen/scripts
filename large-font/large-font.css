@@ -1,16 +1,3 @@
-/*body#show.boards #content table#board td ul.task_list li div.task_pane .task_name {
+body#show.boards #content table#board td ul.task_list li div.task_pane .task_name {
   font-size:13px; line-height:17px;
-}
-*/
-div#content:before {
-  content: "";
-  display:block;
-  background: url(http://www.touratech.com/typo3temp/pics/f7573e027f.jpg);
-  width: 796px;
-  height: 529px;
-  position: absolute;
-  opacity: 0.15;
-  left: 50%;
-  top: 50%;
-  margin: -230px 0 0 -398px;
 }
