@@ -10,3 +10,7 @@ div#content:before {
   top: 50%;
   margin: -230px 0 0 -398px;
 }
+
+.child_of_514869 {
+  background-color: rgba(0,0,0,0.1);
+}
