@@ -2,7 +2,7 @@
     var css, updateTask, updateTasks,
         _this = this;
 
-    css = ".requester { font-size: 0.9em; position: absolute; left: 145px; top: 2px; text-align: right; }";
+    css = ".requester { font-size: 0.8em; position: absolute; right: 10px; top: 2px; text-align: right; }";
 
     $('<style>').html(css).appendTo('head');
 
@@ -21,9 +21,7 @@
             if ($task.find('.requester').length > 0) {
                 return $task.find('.requester').text(user.attributes.initials);
             } else {
-                console.log($task.find('.status_pane'));
-
-                return $task.find('.status_pane').prepend('<span class="requester">' + user.attributes.initials + '</span>');
+                return $task.find('.task_pane').prepend('<span class="requester">' + user.attributes.initials + '</span>');
             }
         }
     };
