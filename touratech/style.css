@@ -16,5 +16,5 @@ div#content:before {
 }
 
 .child_of_514869 span.add_task{
-  display: none;
+  display: none !important;
 }
