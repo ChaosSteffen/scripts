@@ -18,3 +18,11 @@ div#content:before {
 .child_of_514869 span.add_task{
   display: none !important;
 }
+
+.child_of_516133 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.child_of_516133 span.add_task{
+  display: none !important;
+}
