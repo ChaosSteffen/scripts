@@ -14,3 +14,7 @@ div#content:before {
 .child_of_514869 {
   background-color: rgba(0,0,0,0.1);
 }
+
+.child_of_514869 span.add_task{
+  display: none;
+}
