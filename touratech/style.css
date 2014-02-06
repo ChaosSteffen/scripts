@@ -26,3 +26,9 @@ div#content:before {
 .child_of_516133 span.add_task{
   display: none !important;
 }
+
+.working_time {
+  float: right;
+  margin-top: 1px;
+  margin-left: 2px;
+}
